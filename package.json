@@ -1,12 +1,16 @@
 {
 	"name": "rbxts-transformer-private",
-	"version": "1.0.2",
-	"description": "A transformer that adds an underscore to private members",
+	"version": "1.0.3",
+	"description": "A transformer that adds an underscore to private members.",
 	"main": "out/index.js",
 	"author": "wAD",
 	"license": "ISC",
 	"peerDependencies": {
 		"typescript": "^5.2.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wad4444/rbxts-transformer-private.git"
 	},
 	"scripts": {
 		"prepare": "npm run build",
